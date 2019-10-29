@@ -9,5 +9,5 @@ mvn clean package -Djboss.home=<path to Wildfly home dir>
 
 ## ... or just run tests
 ```
-mvn clean verify -DskipTests=true -Djboss.home=<path to Wildfly home dir>
+mvn clean verify -Djboss.home=<path to Wildfly home dir>
 ```
